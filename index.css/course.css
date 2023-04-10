@@ -1,0 +1,64 @@
+input[type="button"] {
+    background-color: black;
+    color: white;
+    border: 2px solid #ff6dff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #ff6dff;
+    color: black;
+  }
+  body {
+    background-color: #261769;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #8F7BEC;
+  }
+  
+  table {
+    border-spacing: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8F7BEC;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="submit"] {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #8F7BEC;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="submit"] {
+    background-color: transparent;
+    border: 3px solid #8F7BEC;
+    color: #8F7BEC;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #8F7BEC;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  
