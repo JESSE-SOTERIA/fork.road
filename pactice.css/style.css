@@ -1,0 +1,83 @@
+
+body{
+    background-color: #BFBBB4;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    padding: 0PX;
+    background-color: #BF0404;
+    color: #BFBBB4;
+    border: 3px solid #590209;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.content{
+    top: 50;
+    right: 0;
+    position: absolute;
+    padding: 0px 20px 20px 20px;
+    color: #590209;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-weight:50px ;
+    color: #590209;
+}
+.images{
+    height:40%;
+    overflow: hidden;
+}
+img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.press{
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #590209;
+    background-color:#BFBBB4;
+    border: 1px solid #590209 ;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.press:hover {
+    color: #BFBBB4;
+    background-color: #590209;
+  }
+  .press:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #BFBBB4, 0 0 0 4px #590209 ;
+  }
+  .press:active {
+    background-color: #590209 ;
+  }
+  .card:hover{
+    background-color: #BFBBB4;
+    color: #590209;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+  .content:hover{
+    color: #590209;
+  }
+  
+  
+  
+  
+  
